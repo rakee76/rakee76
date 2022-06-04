@@ -1,0 +1,158 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #072C53;
+   color: #ffff;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   height: 70px;
+   padding: 0 80px;
+   background-color: #093360;
+   box-shadow: 0px 3px 10px 2px rgba(26, 26, 26, 0.233);
+}
+
+header ul {
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+}
+
+header a {
+   text-decoration: none;
+   margin: 10px;
+   color: rgb(199, 199, 199);
+}
+
+button {
+   border: none;
+   width: 80px;
+   height: 30px;
+   border-radius: 6px;
+   font-weight: 500;
+   font-size: .8rem;
+   cursor: pointer;
+}
+
+button:hover {
+   transform: scale(0.99);
+   transition: all 0.4s ease;
+}
+
+#btn-sign-in {
+   margin-left: 20px;
+   box-shadow: 0px 3px 8px 2px rgba(26, 26, 26, 0.233);
+   background-color: rgba(64, 203, 221, 0.357);
+   color: #fff;
+}
+
+.main {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* background-color:red; */
+}
+
+.card {
+   position: relative;
+   text-align: center;
+   width: 35em;
+   background-color: rgba(255, 255, 255, 0.179);
+   border-radius: 10px;
+   padding: 30px;
+}
+
+.card h1 {
+   margin-bottom: 10px;
+   color: rgba(255, 255, 255, 0.752);
+}
+
+.card hr {
+   margin-bottom: 50px;
+   border-color: rgba(74, 74, 74, 0.322);
+}
+
+.card label {
+   color: rgb(255, 255, 255);
+}
+
+.input-field {
+   margin: 20px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   height: 30px;
+   /* background-color:rgba(255, 0, 0, 0.374); */
+   padding: 0 30px;
+}
+
+.input-field input {
+   width: 50%;
+   border: none;
+   padding: 0 10px;
+   background-color: rgba(255, 255, 255, 0.501);
+   height: 100%;
+   border-radius: 6px;
+   color: rgb(35, 35, 35);
+   font-size: 1rem;
+   font-weight: 600;
+   outline-style: none;
+}
+
+input:focus {
+   border: 2px solid rgb(61, 158, 255);
+
+}
+
+.card select {
+   padding: 0 10px;
+   margin: 10px 0;
+   width: 50%;
+   border: none;
+   color: rgb(53, 53, 53);
+   height: 100%;
+   border-radius: 6px;
+   font-size: 0.9rem;
+   font-weight: 600;
+   background-color: rgba(255, 255, 255, 0.501);
+}
+
+.card select:focus {
+   border: 2px solid rgb(61, 158, 255);
+}
+
+select:focus>option:checked {
+   background: rgba(118, 234, 254, 0.382) !important;
+}
+
+.card option {
+   color: rgb(0, 0, 0);
+   background-color: rgba(255, 255, 255, 0.589);
+}
+
+#btn-download {
+   width: 400px;
+   height: 40px;
+   background-color: #365eff;
+   color: #ffff;
+   font-size: 1.2rem;
+   /* padding-top: 10px; */
+   margin: 20px;
+   box-shadow: 0px 3px 8px 2px rgba(26, 26, 26, 0.233);
+}
+
+
+
+/* Media Queries */
